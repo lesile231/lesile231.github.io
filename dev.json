@@ -3,7 +3,7 @@
     "childItems": [
         {
             "catenaXId": "urn:uuid:engine-12345-6789-abcd-ef1234567890",
-            "businessPartner": "BPNL50096894aNXY",
+            "businessPartner": "BPNL00000030KTBS",
             "createdOn": "2024-01-15T14:48:54.709Z",
             "quantity": {
                 "value": 1.0,
@@ -12,7 +12,7 @@
         },
         {
             "catenaXId": "urn:uuid:transmission-67890-1234-abcd-ef0987654321",
-            "businessPartner": "BPNL00000000000",
+            "businessPartner": "BPNL00000030KTBS",
             "createdOn": "2024-01-15T14:48:54.709Z",
             "quantity": {
                 "value": 1.0,
