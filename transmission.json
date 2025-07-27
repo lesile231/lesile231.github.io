@@ -1,0 +1,140 @@
+{
+  "catenaXId": "urn:uuid:transmission-67890-1234-abcd-ef0987654321",
+  "metadata": {
+      "version": "1.0.0",
+      "expirationDate": "2030-12-31",
+      "issueDate": "2024-01-15",
+      "economicOperatorId": "BPNL00000000000",
+      "passportIdentifier": "urn:uuid:transmission-passport-550e8400-e29b-41d4-a716",
+      "predecessor": "urn:uuid:00000000-0000-0000-0000-000000000000",
+      "backupReference": "https://backup.transmission-supplier.com/dpp/transmission"
+  },
+  "identification": {
+      "type": {
+      "manufacturerPartId": "BMW-TRANSMISSION-B48-2024",
+      "nameAtManufacturer": "BMW B48 TRANSMISSION"
+      },
+      "codes": [
+      {
+          "key": "GTIN",
+          "value": "4012345678902"
+      }
+      ],
+      "dataCarrier": {
+      "carrierType": "QR",
+      "carrierLayout": "engine_block"
+      },
+      "classification": [
+      {
+          "key": "UNSPSC",
+          "value": "25101501"
+      }
+      ]
+  },
+  "operation": {
+      "manufacturer": {
+      "facility": [
+          {
+          "facility": "BPNA5678901234BB"
+          }
+      ],
+      "manufacturer": "BPNL50096894aNXY"
+      },
+      "import": {
+      "applicable": false,
+      "content": null
+      }
+  },
+  "handling": {
+      "content": {
+      "producer": [
+          {
+          "id": "BPNL00000000000"
+          }
+      ],
+      "sparePart": [
+          {
+          "manufacturerPartId": "BMW-TRANSMISSION-PISTON-SET",
+          "nameAtManufacturer": "BMW Engine Piston Set"
+          }
+      ]
+      },
+      "applicable": true
+  },
+  "characteristics": {
+      "lifespan": [
+      {
+          "unit": "unit:year",
+          "value": 10,
+          "key": "guaranteed lifetime"
+      }
+      ],
+      "physicalDimension": {
+      "grossWeight": {
+          "value": 180.0,
+          "unit": "unit:kilogram"
+      },
+      "weight": {
+          "value": 165.0,
+          "unit": "unit:kilogram"
+      }
+      }
+  },
+  "commercial": {
+      "purpose": ["automotive"]
+  },
+  "materials": {
+      "substancesOfConcern": {
+      "applicable": false,
+      "content": []
+      },
+      "materialComposition": {
+      "applicable": true,
+      "content": [
+          {
+          "recycled": 25.0,
+          "renewable": 5.0,
+          "unit": "unit:percent",
+          "id": [
+              {
+              "id": "7429-90-5",
+              "type": "CAS",
+              "name": "Aluminum"
+              }
+          ],
+          "critical": false,
+          "concentration": 85.0,
+          "documentation": []
+          }
+      ]
+      }
+  },
+  "sustainability": {
+      "status": "original",
+      "productFootprint": {
+      "carbon": [
+          {
+          "value": 2.8,
+          "rulebook": [],
+          "lifecycle": "main product production",
+          "unit": "t CO2 eq",
+          "type": "Climate Change Total",
+          "manufacturingPlant": [
+              {
+              "facility": "BPNL00000000000"
+              }
+          ],
+          "declaration": []
+          }
+      ]
+      }
+  },
+  "sources": [
+      {
+          "content": "https://transmission-supplier.com/manuals/b48-transmission-manual.pdf",
+          "category": "User Manuals and Guides",
+          "type": "PDF",
+          "header": "B48 Transmission Manual"
+      }
+  ]
+}
